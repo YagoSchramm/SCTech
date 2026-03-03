@@ -1,11 +1,49 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form de Professores</title>
+    <link rel="stylesheet" href="form_style.css">
 </head>
+
 <body>
-    
+    <section>
+        <h1>Formulário de inscrição de professores para a rede pública </h1>
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade">
+            <label for="materia">Matéria que deseja lecionar</label>          
+              <div class="radio-group">
+                <div class="radio-item">
+                    <input type="radio" id="op1" name="escolha" value="1">
+                    <label for="op1">Matemática</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="op2" name="escolha" value="2">
+                    <label for="op2">Português</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="op3" name="escolha" value="3">
+                    <label for="op3">Biologia</label>
+                </div>
+                    <div class="radio-item">
+                    <input type="radio" id="op3" name="escolha" value="3">
+                    <label for="op3">Química</label>
+                </div>
+            </div> 
+            <input type="button" value="Enviar">
+
+        </form>
+    </section>
 </body>
+
 </html>
+
+
+
